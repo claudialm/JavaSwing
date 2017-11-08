@@ -21,6 +21,14 @@ public class  Ventana extends JFrame
     JTextField text;
     JButton boton;
     
+     //PASO 4 - DEFINICION DEL CONSTRUCTOR DE LA CLASE
+    public Ventana()
+    {
+    
+    
+    
+    
+    }
 
 
 
