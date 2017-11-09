@@ -24,7 +24,7 @@ public class JavaSwing
         //PASO 9 - LLAMADO A LA CLASE
                 Ventana ventana = new Ventana();//CREO UN OBJETO TIPO WINDOW
                 ventana.setVisible(true);
-                ventana.setBounds(0, 0, 600, 600);
+                ventana.setBounds(0, 0, 600, 800);
                 ventana.setTitle("mi primer interfaz grafica");
                 //La siguiente sentencia es para finalizar
                 ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
