@@ -45,7 +45,7 @@ public class  Ventana extends JFrame
          //PASO 7 - PROPIEDADES DE LOS ELEMENTOS
         label.setText("Nombre");
         boton.setText("Enviar");
-        panel.setBackground(Color.blue);//COLOR DE FONDO DEL PANEL
+        panel.setBackground(Color.yellow);//COLOR DE FONDO DEL PANEL
     
     }
 }
