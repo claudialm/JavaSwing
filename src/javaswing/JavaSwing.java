@@ -12,13 +12,26 @@ import javax.swing.JFrame;
  *
  * @author LAB03
  */
-public class JavaSwing {
+public class JavaSwing 
+{
 
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         // TODO code application logic here
+        //PASO 9 - LLAMADO A LA CLASE
+                Ventana ventana = new Ventana();//CREO UN OBJETO TIPO WINDOW
+                ventana.setVisible(true);
+                ventana.setBounds(0, 0, 600, 600);
+                ventana.setTitle("mi primer interfaz grafica");
+                //La siguiente sentencia es para finalizar
+                ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    
+    
+    
+    
     }
     
 }
