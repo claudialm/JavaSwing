@@ -48,17 +48,4 @@ public class  Ventana extends JFrame
         panel.setBackground(Color.blue);//COLOR DE FONDO DEL PANEL
     
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
