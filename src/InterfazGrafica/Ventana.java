@@ -20,13 +20,32 @@ public class  Ventana extends JFrame
     JLabel label;
     JTextField text;
     JButton boton;
+    JCheckBox check;
+    JRadioButton radio;
     
      //PASO 4 - DEFINICION DEL CONSTRUCTOR DE LA CLASE
     public Ventana()
     {
+    //PASO 5 - CREAR E INICIALIZAR LOS OBJETOS
+    panel = new JPanel();//Creamos el objeto
+    label = new JLabel();
+    text = new JTextField(25);//25 son los caracteres
+    boton = new JButton();
+    check = new JCheckBox();
+    radio = new JRadioButton();
     
-    
-    
+     //PASO 6 - AGREGAR LOS ELEMENTOS AL JFRAME
+        this.add(panel);//Agrego el JPanel al JFrame
+        panel.add(label);//Agrego los elementos al JPanel
+        panel.add(text);
+        panel.add(boton);
+        panel.add(check);
+        panel.add(radio);
+        
+         //PASO 7 - PROPIEDADES DE LOS ELEMENTOS
+        label.setText("Nombre");
+        boton.setText("Enviar");
+        panel.setBackground(Color.blue);//COLOR DE FONDO DEL PANEL
     
     }
 
